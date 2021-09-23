@@ -1,0 +1,11 @@
+.mobile-responsive-components {
+  align-items: center;
+  background-color: var(--bg--main-color);
+  display: flex;
+  flex-direction: column;
+  height: 2231px;
+  padding: 39px 23px;
+  position: relative;
+  width: 472px;
+}
+

@@ -1,0 +1,17 @@
+:root { 
+  --bg--main-color: #121212;
+  --bg--secondary-color: #242424;
+  --button--secondary: #3e3e3e;
+  --stroke--color-1: #3e3e3e;
+  --text--main-color: #ffffff;
+  --text--paragraph-colot: #898989;
+ 
+  --font-size-l: 18px;
+  --font-size-m: 16px;
+  --font-size-s: 14px;
+  --font-size-xl: 20px;
+  --font-size-xs: 12px;
+  --font-size-xxl: 32px;
+ 
+  --font-family-montserrat: "Montserrat", Helvetica;
+}
