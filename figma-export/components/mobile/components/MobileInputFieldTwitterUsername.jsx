@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Border1pxButtonSecondary, MontserratSemiBoldWhite16px, MontserratMediumMonsoon16px } from "../../styledMixins";
+import { Border1pxButtonSecondary, MontserratSemiBoldWhite16px, MontserratMediumMonsoon16px } from "../../style-mixins";
 
 
 function MobileInputFieldTwitterUsername(props) {

@@ -40,7 +40,7 @@ const Logo = styled.div`
 
 const Icon = styled.div`
   height: 40px;
-  position: relative;
+  
   margin-left: 71px;
   display: flex;
   align-items: flex-start;

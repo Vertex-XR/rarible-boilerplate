@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { MontserratSemiBoldMonsoon16px } from "../../styledMixins";
+import { MontserratSemiBoldMonsoon16px } from "../../style-mixins";
 
 
 function TabDefult(props) {

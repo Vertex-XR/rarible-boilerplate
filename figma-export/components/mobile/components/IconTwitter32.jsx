@@ -1,7 +1,7 @@
 import React from "react";
 import IconInstagram from "../IconInstagram";
 import styled from "styled-components";
-import { Border1pxButtonSecondary } from "../../styledMixins";
+import { Border1pxButtonSecondary } from "../../style-mixins";
 
 
 function IconTwitter32(props) {
@@ -17,7 +17,7 @@ function IconTwitter32(props) {
 const IconInstagram1 = styled.div`
   ${Border1pxButtonSecondary}
   height: 40px;
-  position: relative;
+  
   margin-left: 20px;
   display: flex;
   padding: 7px;

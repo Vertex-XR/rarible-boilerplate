@@ -57,7 +57,7 @@ const PopupThreeDots1 = styled.div`
 
 const OverlapGroup3 = styled.div`
   width: 255px;
-  position: relative;
+  
   margin-top: -10px;
   display: flex;
   flex-direction: column;

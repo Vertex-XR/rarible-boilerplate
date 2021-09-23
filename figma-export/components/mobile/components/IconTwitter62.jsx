@@ -1,7 +1,7 @@
 import React from "react";
 import IconMode from "../IconMode";
 import styled from "styled-components";
-import { Border1pxButtonSecondary } from "../../styledMixins";
+import { Border1pxButtonSecondary } from "../../style-mixins";
 
 
 function IconTwitter62(props) {
@@ -17,7 +17,7 @@ function IconTwitter62(props) {
 const IconSearch = styled.div`
   ${Border1pxButtonSecondary}
   height: 40px;
-  position: relative;
+  
   display: flex;
   padding: 7px;
   align-items: flex-start;

@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { MontserratMediumWhite16px, Border1pxButtonSecondary } from "../../styledMixins";
+import { MontserratMediumWhite16px, Border1pxButtonSecondary } from "../../style-mixins";
 
 
 function DropDown1(props) {
@@ -31,7 +31,7 @@ const DropDown2 = styled.div`
 const OverlapGroup = styled.div`
   width: 219px;
   height: 60px;
-  position: relative;
+  
   border-radius: 4px;
 `;
 

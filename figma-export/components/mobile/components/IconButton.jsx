@@ -42,7 +42,7 @@ function IconButton(props) {
 }
 
 const IconButton1 = styled.div`
-  position: relative;
+  
   margin-left: 74px;
   display: flex;
   align-items: flex-start;
@@ -51,7 +51,7 @@ const IconButton1 = styled.div`
 
 const SocialIcon = styled.div`
   height: 40px;
-  position: relative;
+  
   display: flex;
   align-items: flex-start;
   min-width: 220px;
@@ -59,7 +59,7 @@ const SocialIcon = styled.div`
 
 const Button = styled.div`
   height: 40px;
-  position: relative;
+  
   margin-left: 20px;
   display: flex;
   align-items: flex-start;

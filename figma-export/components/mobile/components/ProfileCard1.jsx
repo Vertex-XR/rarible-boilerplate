@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { MontserratMediumMonsoon12px, MontserratBoldWhite14px } from "../../styledMixins";
+import { MontserratMediumMonsoon12px, MontserratBoldWhite14px } from "../../style-mixins";
 
 
 function ProfileCard1(props) {

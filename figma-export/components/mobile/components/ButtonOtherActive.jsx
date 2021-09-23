@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { MontserratBoldWhite16px } from "../../styledMixins";
+import { MontserratBoldWhite16px } from "../../style-mixins";
 
 
 function ButtonOtherActive(props) {

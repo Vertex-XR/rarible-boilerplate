@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { MontserratSemiBoldMonsoon14px } from "../../styledMixins";
+import { MontserratSemiBoldMonsoon14px } from "../../style-mixins";
 
 
 function User(props) {

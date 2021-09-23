@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Border1pxButtonSecondary, MontserratMediumMonsoon14px } from "../../styledMixins";
+import { Border1pxButtonSecondary, MontserratMediumMonsoon14px } from "../../style-mixins";
 
 
 function LogoSearch(props) {

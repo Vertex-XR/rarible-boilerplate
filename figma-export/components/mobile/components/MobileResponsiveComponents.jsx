@@ -1,18 +1,17 @@
-import React from "react";
-import NavBarMobile1 from "../NavBarMobile1";
-import NavBarMobile2 from "../NavBarMobile2";
-import HeadingMobile1 from "../HeadingMobile1";
-import Explore from "../Explore";
-import MobileInputFieldDropDown from "../MobileInputFieldDropDown";
-import MobileInputFieldSimpleTitle from "../MobileInputFieldSimpleTitle";
-import MobileInputFieldSimpleDescription from "../MobileInputFieldSimpleDescription";
-import MobileInputFieldSimpleRoyalties from "../MobileInputFieldSimpleRoyalties";
-import MobileInputFieldSimpleNumberOfCopie from "../MobileInputFieldSimpleNumberOfCopie";
-import MobileInputFieldTwitterUsername from "../MobileInputFieldTwitterUsername";
-import MobileOwnerCard2 from "../MobileOwnerCard2";
-import MobileInputFieldEnterQuantity from "../MobileInputFieldEnterQuantity";
-import MobileInputFieldEnterQuantity2 from "../MobileInputFieldEnterQuantity2";
-import "./MobileResponsiveComponents.css";
+import NavBarMobile1 from '../NavBarMobile1'
+import NavBarMobile2 from '../NavBarMobile2'
+import HeadingMobile1 from '../HeadingMobile1'
+import Explore from '../Explore'
+import MobileInputFieldDropDown from '../MobileInputFieldDropDown'
+import MobileInputFieldSimpleTitle from '../MobileInputFieldSimpleTitle'
+import MobileInputFieldSimpleDescription from '../MobileInputFieldSimpleDescription'
+import MobileInputFieldSimpleRoyalties from '../MobileInputFieldSimpleRoyalties'
+import MobileInputFieldSimpleNumberOfCopie from '../MobileInputFieldSimpleNumberOfCopie'
+import MobileInputFieldTwitterUsername from '../MobileInputFieldTwitterUsername'
+import MobileOwnerCard2 from '../MobileOwnerCard2'
+import MobileInputFieldEnterQuantity from '../MobileInputFieldEnterQuantity'
+import MobileInputFieldEnterQuantity2 from '../MobileInputFieldEnterQuantity2'
+import './MobileResponsiveComponents.css'
 
 function MobileResponsiveComponents(props) {
   const {
@@ -29,7 +28,7 @@ function MobileResponsiveComponents(props) {
     mobileOwnerCard2Props,
     mobileInputFieldEnterQuantityProps,
     mobileInputFieldEnterQuantity2Props,
-  } = props;
+  } = props
 
   return (
     <div className="container-center-horizontal">
@@ -47,7 +46,10 @@ function MobileResponsiveComponents(props) {
           iconTwitter2Props={navBarMobile2Props.iconTwitter2Props}
           iconTwitter3Props={navBarMobile2Props.iconTwitter3Props}
         />
-        <HeadingMobile1 explore={headingMobile1Props.explore} recentlyAdded={headingMobile1Props.recentlyAdded} />
+        <HeadingMobile1
+          explore={headingMobile1Props.explore}
+          recentlyAdded={headingMobile1Props.recentlyAdded}
+        />
         <Explore explore={exploreProps.explore} />
         <MobileInputFieldDropDown
           text1={mobileInputFieldDropDownProps.text1}
@@ -95,7 +97,7 @@ function MobileResponsiveComponents(props) {
         />
       </div>
     </div>
-  );
+  )
 }
 
-export default MobileResponsiveComponents;
+export default MobileResponsiveComponents

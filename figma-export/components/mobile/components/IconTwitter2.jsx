@@ -1,7 +1,7 @@
 import React from "react";
 import IconHamburgerManu from "../IconHamburgerManu";
 import styled from "styled-components";
-import { Border1pxButtonSecondary } from "../../styledMixins";
+import { Border1pxButtonSecondary } from "../../style-mixins";
 
 
 function IconTwitter2(props) {
@@ -17,7 +17,7 @@ function IconTwitter2(props) {
 const IconMenu = styled.div`
   ${Border1pxButtonSecondary}
   height: 40px;
-  position: relative;
+  
   margin-left: 20px;
   display: flex;
   padding: 7px;

@@ -1,7 +1,7 @@
 import React from "react";
 import ImgUser from "../ImgUser";
 import styled from "styled-components";
-import { MontserratBoldWhite16px2, MontserratMediumMonsoon14px } from "../../styledMixins";
+import { MontserratBoldWhite16px2, MontserratMediumMonsoon14px } from "../../style-mixins";
 
 
 function BidCard1(props) {
@@ -25,7 +25,7 @@ function BidCard1(props) {
 
 const BidCard11 = styled.div`
   height: 92px;
-  position: relative;
+  
   margin-top: 48px;
   display: flex;
   padding: 0 30px;

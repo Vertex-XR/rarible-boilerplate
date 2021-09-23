@@ -2,7 +2,7 @@ import React from "react";
 import ImgUser from "../ImgUser";
 import ButtonMain32 from "../ButtonMain32";
 import styled from "styled-components";
-import { MontserratBoldWhite16px, MontserratMediumWhite14px } from "../../styledMixins";
+import { MontserratBoldWhite16px, MontserratMediumWhite14px } from "../../style-mixins";
 
 
 function OwnerCard1(props) {
@@ -32,7 +32,7 @@ function OwnerCard1(props) {
 
 const OwnerCard11 = styled.div`
   height: 92px;
-  position: relative;
+  
   margin-top: 104px;
   display: flex;
   padding: 0 30px;
@@ -44,7 +44,7 @@ const OwnerCard11 = styled.div`
 
 const CardInfo = styled.div`
   height: 60px;
-  position: relative;
+  
   display: flex;
   align-items: center;
   min-width: 295px;

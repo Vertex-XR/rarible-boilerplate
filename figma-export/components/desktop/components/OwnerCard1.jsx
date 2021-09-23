@@ -2,7 +2,7 @@ import React from "react";
 import ImgUser from "../ImgUser";
 import ButtonMain3 from "../ButtonMain3";
 import styled from "styled-components";
-import { MontserratBoldWhite16px } from "../../styledMixins";
+import { MontserratBoldWhite16px } from "../../style-mixins";
 
 
 function OwnerCard1(props) {
@@ -31,7 +31,7 @@ function OwnerCard1(props) {
 
 const OwnerCard11 = styled.div`
   height: 92px;
-  position: relative;
+  
   margin-top: 104px;
   display: flex;
   padding: 0 30px;
@@ -43,7 +43,7 @@ const OwnerCard11 = styled.div`
 
 const CardInfo = styled.div`
   height: 60px;
-  position: relative;
+  
   display: flex;
   align-items: center;
   min-width: 295px;
@@ -70,7 +70,7 @@ const Text14 = styled.p`
   width: 220px;
   min-height: 17px;
   margin-top: 10px;
-  font-family: var(--font-family-montserrat);
+  
   font-weight: 500;
   color: transparent;
   font-size: var(--font-size-s);

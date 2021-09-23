@@ -1,14 +1,15 @@
+import { Paragraph } from 'theme-ui'
 import buttonVariants from './theme/buttons'
 
 export const timing = [.25, .5, .75, 1, 1.25, 1.5, 1.75, 2, 3]
 
 const GlobalTheme = {
-  space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
-  sizes: [0, 4, 8, 16, 32, 64, 128, 256, 512],
+  space: ['12px','14px','16px','18px','20px','32px'],
+  sizes: ['12px','14px','16px','18px','20px','32px'],
   fonts: {
-    body: '"Inter", sans-serif',
-    heading: '"Montserrat", sans-serif',
-    monospace: '"Roboto Mono", monospace',
+    body: '"Montserrat", Helvetica',
+    heading: '"Montserrat", Helvetica',
+    monospace: '"Montserrat", Helvetica',
   },
   fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 96],
   fontWeights: {
@@ -21,17 +22,20 @@ const GlobalTheme = {
     heading: 1.25,
   },
   colors: {
-    background: '#EEE',
-    text: '#666666',
-    primary0: 'blue',
-    primary00: 'lightblue',
-    primary000: 'navy',
-    secondary0: 'green',
-    secondary00: 'lightgreen',
-    secondary000: 'darkgreen',
-    gray0: 'lightgray',
-    gray00: 'darkgray',
-    gray000: 'gray',
+    background: '#121212',
+    background0: '#242424',
+    text: '#FFF',
+    paragraph: '#898989',
+    buttonSecondary: '#3e3e3e',
+    primary: '#121212',
+    secondary: '#242424',
+    stroke: '#3e3e3e',
+    // --bg--main-color: #121212;
+    // --bg--secondary-color: #242424;
+    // --button--secondary: #3e3e3e;
+    // --stroke--color-1: #3e3e3e;
+    // --text--main-color: #ffffff;
+    // --text--paragraph-colot: #898989;  
   },
   forms: {
     select: {
@@ -54,6 +58,7 @@ const GlobalTheme = {
       fontFamily: 'body',
       lineHeight: 'body',
       fontWeight: 'body',
+      color: 'text',
     },
     h1: {
       marginTop: '0',
@@ -105,13 +110,13 @@ const GlobalTheme = {
     },
     p: {
       marginTop: '0',
-      color: 'text',
+      color: 'paragraph',
       fontFamily: 'body',
       fontWeight: 'body',
       lineHeight: 'body',
     },
     a: {
-      color: 'primary',
+      color: 'secondary',
       textDecoration: 'none',
     },
     pre: {

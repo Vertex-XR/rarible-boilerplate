@@ -5,7 +5,7 @@ import {
   MontserratMediumMonsoon14px,
   MontserratSemiBoldWhite16px,
   MontserratMediumMonsoon16px,
-} from "../../styledMixins";
+} from "../../style-mixins";
 
 
 function MobileInputFieldSimpleNumberOfCopie(props) {

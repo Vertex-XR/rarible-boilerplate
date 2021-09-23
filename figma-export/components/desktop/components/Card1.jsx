@@ -1,7 +1,7 @@
 import React from "react";
 import User from "../User";
 import styled from "styled-components";
-import { Border1pxButtonSecondary, MontserratBoldWhite16px2, MontserratSemiBoldMonsoon14px } from "../../styledMixins";
+import { Border1pxButtonSecondary, MontserratBoldWhite16px2, MontserratSemiBoldMonsoon14px } from "../../style-mixins";
 
 
 function Card1(props) {
@@ -32,7 +32,7 @@ function Card1(props) {
 const Card11 = styled.div`
   ${Border1pxButtonSecondary}
   width: 336px;
-  position: relative;
+  
   margin-left: 19px;
   margin-top: 72px;
   display: flex;
@@ -67,9 +67,9 @@ const Text = styled.div`
 
 const CryptoJunk2181 = styled.div`
   min-height: 22px;
-  font-family: var(--font-family-montserrat);
+  
   font-weight: 700;
-  color: var(--text--main-color);
+  
   font-size: var(--font-size-l);
   letter-spacing: 0;
 `;

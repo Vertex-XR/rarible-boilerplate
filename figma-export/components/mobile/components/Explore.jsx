@@ -25,9 +25,9 @@ const Explore1 = styled.div`
 
 const Explore2 = styled.div`
   min-height: 24px;
-  font-family: var(--font-family-montserrat);
+  
   font-weight: 700;
-  color: var(--text--main-color);
+  
   font-size: var(--font-size-xl);
   letter-spacing: 0;
 `;

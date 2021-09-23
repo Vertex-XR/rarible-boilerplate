@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { MontserratSemiBoldWhite16px } from "../../styledMixins";
+import { MontserratSemiBoldWhite16px } from "../../style-mixins";
 
 
 function TabActive(props) {

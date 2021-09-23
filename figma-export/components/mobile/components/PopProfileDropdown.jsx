@@ -58,7 +58,7 @@ const PopProfileDropdown1 = styled.div`
 
 const OverlapGroup1 = styled.div`
   width: 340px;
-  position: relative;
+  
   margin-top: -10px;
   display: flex;
   flex-direction: column;
@@ -70,7 +70,7 @@ const OverlapGroup1 = styled.div`
 
 const Frame20 = styled.div`
   width: 260px;
-  position: relative;
+  
   margin-top: 16px;
   display: flex;
   flex-direction: column;

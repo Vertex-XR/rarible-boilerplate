@@ -6,7 +6,7 @@ import {
   MontserratSemiBoldWhite16px,
   MontserratSemiBoldWhite14px,
   MontserratMediumMonsoon16px,
-} from "../../styledMixins";
+} from "../../style-mixins";
 
 
 function InputFieldDropDown(props) {
@@ -44,7 +44,7 @@ const Text8 = styled.p`
 const OverlapGroup = styled.div`
   ${Border1pxButtonSecondary}
   height: 54px;
-  position: relative;
+  
   margin-top: 16px;
   margin-left: -1px;
   display: flex;

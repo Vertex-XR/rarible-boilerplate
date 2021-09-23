@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Border1pxButtonSecondary, MontserratBoldWhite18px } from "../../styledMixins";
+import { Border1pxButtonSecondary, MontserratBoldWhite18px } from "../../style-mixins";
 
 
 function HeadingMobile1(props) {
@@ -36,7 +36,7 @@ const Explore = styled.div`
 const OverlapGroup = styled.div`
   width: 161px;
   height: 40px;
-  position: relative;
+  
   margin-left: 110px;
   border-radius: 4px;
 `;
@@ -45,9 +45,9 @@ const RecentlyAdded = styled.div`
   position: absolute;
   top: 13px;
   left: 17px;
-  font-family: var(--font-family-montserrat);
+  
   font-weight: 500;
-  color: var(--text--main-color);
+  
   font-size: var(--font-size-xs);
   letter-spacing: 0;
 `;

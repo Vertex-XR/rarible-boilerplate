@@ -6,7 +6,7 @@ import {
   MontserratSemiBoldWhite16px,
   MontserratSemiBoldWhite14px,
   MontserratMediumMonsoon16px,
-} from "../../styledMixins";
+} from "../../style-mixins";
 
 
 function MobileInputFieldDropDown(props) {
@@ -68,7 +68,7 @@ const X50ETH = styled.div`
 const OverlapGroup1 = styled.div`
   width: 60px;
   height: 30px;
-  position: relative;
+  
   align-self: flex-end;
   margin-left: 163px;
 `;

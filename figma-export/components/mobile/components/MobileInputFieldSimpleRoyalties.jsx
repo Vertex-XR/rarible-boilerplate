@@ -6,7 +6,7 @@ import {
   MontserratSemiBoldMonsoon16px,
   MontserratSemiBoldWhite16px,
   MontserratMediumMonsoon16px,
-} from "../../styledMixins";
+} from "../../style-mixins";
 
 
 function MobileInputFieldSimpleRoyalties(props) {

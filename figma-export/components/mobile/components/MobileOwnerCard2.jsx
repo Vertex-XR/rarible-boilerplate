@@ -1,7 +1,7 @@
 import React from "react";
 import ButtonMain32 from "../ButtonMain32";
 import styled from "styled-components";
-import { MontserratBoldWhite16px, MontserratMediumWhite14px } from "../../styledMixins";
+import { MontserratBoldWhite16px, MontserratMediumWhite14px } from "../../style-mixins";
 
 
 function MobileOwnerCard2(props) {
@@ -32,7 +32,7 @@ function MobileOwnerCard2(props) {
 
 const MobileOwnerCard21 = styled.div`
   height: 97px;
-  position: relative;
+  
   margin-top: 29px;
   margin-right: 15px;
   display: flex;

@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { MontserratSemiBoldWhite14px } from "../../styledMixins";
+import { MontserratSemiBoldWhite14px } from "../../style-mixins";
 
 
 function ProfileTabDefult(props) {

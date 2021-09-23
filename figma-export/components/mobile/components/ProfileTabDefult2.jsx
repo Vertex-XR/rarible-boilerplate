@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { MontserratSemiBoldWhite14px } from "../../styledMixins";
+import { MontserratSemiBoldWhite14px } from "../../style-mixins";
 
 
 function ProfileTabDefult2(props) {
@@ -28,7 +28,7 @@ const ProfileTabDefult = styled.div`
 const OverlapGroup1 = styled.div`
   width: 107px;
   height: 17px;
-  position: relative;
+  
 `;
 
 const Rectangle133 = styled.img`

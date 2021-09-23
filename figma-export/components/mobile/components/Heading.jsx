@@ -16,7 +16,7 @@ function Heading(props) {
 
 const Heading1 = styled.div`
   height: 60px;
-  position: relative;
+  
   align-self: flex-start;
   margin-top: 113px;
   margin-left: 20px;
@@ -28,8 +28,8 @@ const Heading1 = styled.div`
 const Title = styled.h1`
   min-height: 39px;
   min-width: 129px;
-  font-family: var(--font-family-montserrat);
-  color: var(--text--main-color);
+  
+  
   font-size: var(--font-size-xxl);
   letter-spacing: 0;
 `;

@@ -6,7 +6,7 @@ import {
   MontserratBoldWhite16px2,
   MontserratSemiBoldMonsoon14px,
   MontserratBoldWhite18px,
-} from "../../styledMixins";
+} from "../../style-mixins";
 
 
 function Card1(props) {
@@ -37,7 +37,7 @@ function Card1(props) {
 const Card11 = styled.div`
   ${Border1pxButtonSecondary}
   width: 336px;
-  position: relative;
+  
   margin-left: 19px;
   margin-top: 72px;
   display: flex;
