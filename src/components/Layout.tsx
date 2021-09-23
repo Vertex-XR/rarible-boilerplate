@@ -33,7 +33,6 @@ const Layout = ({ children }: LayoutProps) => {
           '*': {
             boxSizing: 'border-box',
             position: 'relative',
-            alignItems: 'center',
             outline: 'none',
             '*::before, *::after': {
               boxSizing: 'border-box',
